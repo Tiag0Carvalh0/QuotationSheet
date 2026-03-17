@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\tiago\\Desktop\\QuotationSheet\\StockApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CCA3B4AB-B3CE-A977-E50B-F3E4D871DD95}|StockApp.csproj|c:\\users\\tiago\\desktop\\quotationsheet\\stockapp\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA3B4AB-B3CE-A977-E50B-F3E4D871DD95}|StockApp.csproj|solutionrelative:client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCA3B4AB-B3CE-A977-E50B-F3E4D871DD95}|StockApp.csproj|c:\\users\\tiago\\desktop\\quotationsheet\\stockapp\\machinery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCA3B4AB-B3CE-A977-E50B-F3E4D871DD95}|StockApp.csproj|solutionrelative:machinery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\Desktop\\QuotationSheet\\StockApp\\Client.cs",
+              "RelativeDocumentMoniker": "Client.cs",
+              "ToolTip": "C:\\Users\\tiago\\Desktop\\QuotationSheet\\StockApp\\Client.cs",
+              "RelativeToolTip": "Client.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T21:10:46.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Machinery.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Desktop\\QuotationSheet\\StockApp\\Machinery.cs",
               "RelativeDocumentMoniker": "Machinery.cs",
               "ToolTip": "C:\\Users\\tiago\\Desktop\\QuotationSheet\\StockApp\\Machinery.cs",
               "RelativeToolTip": "Machinery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T20:39:03.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Material.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Desktop\\QuotationSheet\\StockApp\\Material.cs",
               "RelativeDocumentMoniker": "Material.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Material.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T20:28:01.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T20:28:01.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Desktop\\QuotationSheet\\StockApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T20:27:09.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T20:27:09.721Z"
             }
           ]
         }
