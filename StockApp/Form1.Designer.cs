@@ -31,12 +31,12 @@ namespace StockApp
         private void InitializeComponent()
         {
             panel_MainMenu = new Panel();
-            button6 = new Button();
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            btn_Settings = new Button();
+            btn_Exit = new Button();
+            btn_FixedCosts = new Button();
+            btn_Stock = new Button();
+            btn_Clients = new Button();
+            btn_PriceList = new Button();
             btn_NewOrder = new Button();
             label_AppName = new Label();
             picture_AppLogo = new PictureBox();
@@ -53,12 +53,12 @@ namespace StockApp
             // 
             // panel_MainMenu
             // 
-            panel_MainMenu.Controls.Add(button6);
-            panel_MainMenu.Controls.Add(button5);
-            panel_MainMenu.Controls.Add(button4);
-            panel_MainMenu.Controls.Add(button3);
-            panel_MainMenu.Controls.Add(button2);
-            panel_MainMenu.Controls.Add(button1);
+            panel_MainMenu.Controls.Add(btn_Settings);
+            panel_MainMenu.Controls.Add(btn_Exit);
+            panel_MainMenu.Controls.Add(btn_FixedCosts);
+            panel_MainMenu.Controls.Add(btn_Stock);
+            panel_MainMenu.Controls.Add(btn_Clients);
+            panel_MainMenu.Controls.Add(btn_PriceList);
             panel_MainMenu.Controls.Add(btn_NewOrder);
             panel_MainMenu.Controls.Add(label_AppName);
             panel_MainMenu.Controls.Add(picture_AppLogo);
@@ -68,105 +68,105 @@ namespace StockApp
             panel_MainMenu.Size = new Size(202, 789);
             panel_MainMenu.TabIndex = 0;
             // 
-            // button6
+            // btn_Settings
             // 
-            button6.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            button6.BackColor = Color.FromArgb(29, 29, 66);
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.ForeColor = Color.White;
-            button6.Image = Properties.Resources.Settings_2;
-            button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(12, 677);
-            button6.Name = "button6";
-            button6.Size = new Size(88, 55);
-            button6.TabIndex = 2;
-            button6.Text = "Settings";
-            button6.TextAlign = ContentAlignment.MiddleRight;
-            button6.UseVisualStyleBackColor = false;
+            btn_Settings.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btn_Settings.BackColor = Color.FromArgb(29, 29, 66);
+            btn_Settings.FlatAppearance.BorderSize = 0;
+            btn_Settings.FlatStyle = FlatStyle.Flat;
+            btn_Settings.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Settings.ForeColor = Color.White;
+            btn_Settings.Image = Properties.Resources.Settings_2;
+            btn_Settings.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Settings.Location = new Point(12, 677);
+            btn_Settings.Name = "btn_Settings";
+            btn_Settings.Size = new Size(88, 55);
+            btn_Settings.TabIndex = 2;
+            btn_Settings.Text = "Settings";
+            btn_Settings.TextAlign = ContentAlignment.MiddleRight;
+            btn_Settings.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btn_Exit
             // 
-            button5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            button5.BackColor = Color.FromArgb(29, 29, 66);
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.ForeColor = Color.White;
-            button5.Image = Properties.Resources.Exit;
-            button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(12, 722);
-            button5.Name = "button5";
-            button5.Size = new Size(72, 55);
-            button5.TabIndex = 2;
-            button5.Text = "Exit";
-            button5.TextAlign = ContentAlignment.MiddleRight;
-            button5.UseVisualStyleBackColor = false;
+            btn_Exit.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btn_Exit.BackColor = Color.FromArgb(29, 29, 66);
+            btn_Exit.FlatAppearance.BorderSize = 0;
+            btn_Exit.FlatStyle = FlatStyle.Flat;
+            btn_Exit.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Exit.ForeColor = Color.White;
+            btn_Exit.Image = Properties.Resources.Exit;
+            btn_Exit.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Exit.Location = new Point(12, 722);
+            btn_Exit.Name = "btn_Exit";
+            btn_Exit.Size = new Size(72, 55);
+            btn_Exit.TabIndex = 2;
+            btn_Exit.Text = "Exit";
+            btn_Exit.TextAlign = ContentAlignment.MiddleRight;
+            btn_Exit.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn_FixedCosts
             // 
-            button4.BackColor = Color.FromArgb(29, 29, 66);
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.White;
-            button4.Image = Properties.Resources.Fixed_Costs;
-            button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.Location = new Point(12, 395);
-            button4.Name = "button4";
-            button4.Size = new Size(230, 56);
-            button4.TabIndex = 2;
-            button4.Text = "Fixed Costs";
-            button4.UseVisualStyleBackColor = false;
+            btn_FixedCosts.BackColor = Color.FromArgb(29, 29, 66);
+            btn_FixedCosts.FlatAppearance.BorderSize = 0;
+            btn_FixedCosts.FlatStyle = FlatStyle.Flat;
+            btn_FixedCosts.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_FixedCosts.ForeColor = Color.White;
+            btn_FixedCosts.Image = Properties.Resources.Fixed_Costs;
+            btn_FixedCosts.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_FixedCosts.Location = new Point(12, 395);
+            btn_FixedCosts.Name = "btn_FixedCosts";
+            btn_FixedCosts.Size = new Size(230, 56);
+            btn_FixedCosts.TabIndex = 2;
+            btn_FixedCosts.Text = "Fixed Costs";
+            btn_FixedCosts.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btn_Stock
             // 
-            button3.BackColor = Color.FromArgb(29, 29, 66);
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.ForeColor = Color.White;
-            button3.Image = Properties.Resources.Stock_2;
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(12, 333);
-            button3.Name = "button3";
-            button3.Size = new Size(230, 56);
-            button3.TabIndex = 2;
-            button3.Text = "Stock";
-            button3.UseVisualStyleBackColor = false;
+            btn_Stock.BackColor = Color.FromArgb(29, 29, 66);
+            btn_Stock.FlatAppearance.BorderSize = 0;
+            btn_Stock.FlatStyle = FlatStyle.Flat;
+            btn_Stock.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Stock.ForeColor = Color.White;
+            btn_Stock.Image = Properties.Resources.Stock_2;
+            btn_Stock.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Stock.Location = new Point(12, 333);
+            btn_Stock.Name = "btn_Stock";
+            btn_Stock.Size = new Size(230, 56);
+            btn_Stock.TabIndex = 2;
+            btn_Stock.Text = "Stock";
+            btn_Stock.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn_Clients
             // 
-            button2.BackColor = Color.FromArgb(29, 29, 66);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.White;
-            button2.Image = Properties.Resources.Client;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(12, 271);
-            button2.Name = "button2";
-            button2.Size = new Size(230, 56);
-            button2.TabIndex = 2;
-            button2.Text = "Clients";
-            button2.UseVisualStyleBackColor = false;
+            btn_Clients.BackColor = Color.FromArgb(29, 29, 66);
+            btn_Clients.FlatAppearance.BorderSize = 0;
+            btn_Clients.FlatStyle = FlatStyle.Flat;
+            btn_Clients.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Clients.ForeColor = Color.White;
+            btn_Clients.Image = Properties.Resources.Client;
+            btn_Clients.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Clients.Location = new Point(12, 271);
+            btn_Clients.Name = "btn_Clients";
+            btn_Clients.Size = new Size(230, 56);
+            btn_Clients.TabIndex = 2;
+            btn_Clients.Text = "Clients";
+            btn_Clients.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btn_PriceList
             // 
-            button1.BackColor = Color.FromArgb(29, 29, 66);
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Image = Properties.Resources.Pricing;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(12, 209);
-            button1.Name = "button1";
-            button1.Size = new Size(230, 56);
-            button1.TabIndex = 2;
-            button1.Text = "Price List";
-            button1.UseVisualStyleBackColor = false;
+            btn_PriceList.BackColor = Color.FromArgb(29, 29, 66);
+            btn_PriceList.FlatAppearance.BorderSize = 0;
+            btn_PriceList.FlatStyle = FlatStyle.Flat;
+            btn_PriceList.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_PriceList.ForeColor = Color.White;
+            btn_PriceList.Image = Properties.Resources.Pricing;
+            btn_PriceList.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_PriceList.Location = new Point(12, 209);
+            btn_PriceList.Name = "btn_PriceList";
+            btn_PriceList.Size = new Size(230, 56);
+            btn_PriceList.TabIndex = 2;
+            btn_PriceList.Text = "Price List";
+            btn_PriceList.UseVisualStyleBackColor = false;
             // 
             // btn_NewOrder
             // 
@@ -282,12 +282,12 @@ namespace StockApp
         private Panel panel_DisplayPage;
         private Label label_AppName;
         private Button btn_NewOrder;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private Button button6;
+        private Button btn_Exit;
+        private Button btn_FixedCosts;
+        private Button btn_Stock;
+        private Button btn_Clients;
+        private Button btn_PriceList;
+        private Button btn_Settings;
         private Panel panel_UserProfile;
         private PictureBox picture_StoreLogo;
         private Label label_StoreName;
